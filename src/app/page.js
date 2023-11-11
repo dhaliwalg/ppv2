@@ -60,7 +60,7 @@ export default function Home() {
 
               We can deliver flawlessly tied Sikh paggs, wedding saafas, turla paggs, and any other style you desire. Our extensive experience means we can expertly tie custom turbans for grooms, entire wedding parties, or even corporate events.
 
-              Our stylists transform turbans into a statement of personal style and honor for each client's special day. We handle every detail so you can focus on moments that matter most. </p>
+              Our stylists transform turbans into a statement of personal style and honor for each client&apos;s special day. We handle every detail so you can focus on moments that matter most. </p>
           </div>
         </div>
 

@@ -98,6 +98,7 @@ export default function Navbar() {
                                 window.scrollTo({ top: 0, behavior: 'smooth' })
                             }}
                             src="/logo-nobg.png"
+                            alt='logo'
                             className={`items-center mr-auto hover:scale-110 duration-300 transition-all duration-500 ease-in-out ${isScrolled ? 'w-24' : 'w-64'}`}
                         />
                     </Box>
