@@ -83,7 +83,7 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <Box className='text-stone-50'>
-                <Box as='nav' flexDir="row" className="hidden md:block fixed" top={3.5} right={0} p={2} zIndex={1}>
+                <Box as='nav' flexDir="row" className="hidden md:block fixed z-10" top={3.5} right={0} p={2}>
                     {navLinks.map(link => (
                         <Link className='mr-4 hover:underline' key={link.label} href={link.href}>
                             {link.label}
