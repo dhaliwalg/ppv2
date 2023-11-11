@@ -68,7 +68,7 @@ export default function Navbar() {
                     <DrawerBody flexDir='column'>
                         {navLinks.map(link => (
                             <Box className={vollkorn.className} key={link.label} mb={4}>
-                                <Link key={link.label} href={link.href} onClick={onClose}>{link.label}</Link>
+                                <Link className='hover:underline' key={link.label} href={link.href} onClick={onClose}>{link.label}</Link>
                             </Box>
                         ))}
                     </DrawerBody>
@@ -83,9 +83,9 @@ export default function Navbar() {
 
             {/* Desktop Navigation */}
             <Box className='text-stone-50'>
-                <Box as='nav' flexDir="row" className="hidden md:block fixed top-3.5 right-0 p-2 z-1" >
+                <Box as='nav' flexDir="row" className="hidden md:block fixed" top={3.5} right={0} p={2} zIndex={1}>
                     {navLinks.map(link => (
-                        <Link className='mr-4' key={link.label} href={link.href}>
+                        <Link className='mr-4 hover:underline' key={link.label} href={link.href}>
                             {link.label}
                         </Link>
                     ))}
