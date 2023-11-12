@@ -24,3 +24,12 @@ body {
 * {
   scroll-behavior: smooth;
 }
+
+.overflow-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-scroll {
+  scrollbar-width: none;
+  /* Firefox */
+}
