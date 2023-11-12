@@ -12,7 +12,7 @@ export default function Lookbook() {
                 rightIcon={<ArrowForwardIcon />}
                 onClick={onToggle}>View Lookbook</Button>
             <SlideFade in={isOpen}>
-                <Box className="overflow-scroll mt-4 color-white scrollbar-hide">
+                <Box className={`${isOpen ? "" : "hidden"} overflow-scroll mt-4 color-white scrollbar-hide`}>
                     <Stack ml='4' spacing={8} direction={['column', 'row']}>
                         <Image className="rounded-md" boxSize='205px' src='/img1.jpg' alt="sikh pagg" />
                         <Image className="rounded-md" boxSize='205px' src='/img2.jpg' alt="wedding saafa" />
