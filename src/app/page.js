@@ -20,8 +20,6 @@ const gurmukhi = Noto_Serif_Gurmukhi({
   subsets: ['gurmukhi']
 })
 
-
-
 export default function Home() {
   return (
 
@@ -48,25 +46,25 @@ export default function Home() {
 
         <div id='lookbook' className={`${playfairbold.className} mt-6 relative`}>
           <h2><br /><br />  </h2>
-          <div className='flex justify-center mt-10'>
+          <div className='flex justify-center mt-8 lg:mt-12'>
             <Lookbook p={4} />
           </div>
         </div>
 
-        <div id='about' className='relative mt-24'>
+        <div id='about' className='relative mt-4'>
           <h2 className={`${playfairbold.className} mt-20 lg:mt-32`}>About Us</h2>
           <div className={`${playfairreg.className} flex justify-center`}>
             <p>Pagg Pros provides turban tying services in the DMV for weddings, bhangra events, and any occasion calling for elegantly styled paggs.
 
-              We can deliver flawlessly tied Sikh paggs, wedding saafas, turla paggs, and any other style you desire. Our extensive experience means we can expertly tie custom turbans for grooms, entire wedding parties, or even corporate events.
+              We can deliver flawlessly tied Sikh paggs, wedding saafas, turla paggs, and any other style you desire. Our extensive experience means we can expertly tie turbans for grooms, entire wedding parties, or even corporate events.
 
               Our stylists transform turbans into a statement of personal style and honor for each client&apos;s special day. We handle every detail so you can focus on moments that matter most. </p>
           </div>
         </div>
 
-        <div id='contact' className='mt-auto'>
-          <h2 className={`${playfairbold.className} mt-4 lg:mt-20`}>Contact For a Quote</h2>
-          <div className={`${playfairreg.className} flex justify-center mt-4`}>
+        <div id='contact' className='mt-6'>
+          <h2 className={`${playfairbold.className} mt-72 lg:mt-20`}>Contact For a Quote</h2>
+          <div className={`${playfairreg.className} flex justify-center mt-2 lg:mt-2`}>
             <Contact />
           </div>
         </div>
