@@ -41,7 +41,7 @@ export default function Home() {
         <p className={`${playfairreg.className} lg:text-lg text-base`}><br />The Turban, more traditionally known as a Pagg
           <span className={gurmukhi.className}> ਪੱਗ</span> or Dastaar <span className={gurmukhi.className}>ਦਸਤਾਰ </span>
           has been a staple in Eastern Culture for years. <br />Affiliated with royalty, they were primarily worn by kings and nobility
-          as a sign of status. Paggs remain an integral part of religion and special occasions such as weddings
+          as a sign of status. Paggs remain an integral part of religion and special occasions, such as weddings
           and bhangra performances. Each style has a story, a heritage. Pagg tying is a precise artform,
           with techniques passed down through generations. It takes skill to perfectly tie a pagg - trust <b>us</b>.
         </p>
