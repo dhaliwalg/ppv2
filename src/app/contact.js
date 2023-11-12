@@ -16,7 +16,7 @@ export default function Contact() {
                     </Box>
                     <Box>
                         <FiInstagram className="ml-16 lg:ml-8" />
-                        <Link href="http://instagram.com/_u/paggpros/">@paggpros</Link>
+                        <Link href="http://instagram.com/paggpros/">@paggpros</Link>
                     </Box>
                 </Stack>
 
