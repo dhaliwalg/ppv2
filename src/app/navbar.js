@@ -68,7 +68,7 @@ export default function Navbar() {
                     <DrawerBody flexDir='column'>
                         {navLinks.map(link => (
                             <Box className={vollkorn.className} key={link.label} mb={4}>
-                                <Link className='hover:underline' key={link.label} href={link.href} onClick={onClose}>{link.label}</Link>
+                                <Link className='hover:underline text-black' key={link.label} href={link.href} onClick={onClose}>{link.label}</Link>
                             </Box>
                         ))}
                     </DrawerBody>
