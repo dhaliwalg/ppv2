@@ -54,7 +54,7 @@ export default function Home() {
         </div>
 
         <div id='about' className='relative mt-24'>
-          <h2 className={`${playfairbold.className} `}>About Us</h2>
+          <h2 className={`${playfairbold.className} mt-20 lg:mt-32`}>About Us</h2>
           <div className={`${playfairreg.className} flex justify-center`}>
             <p>Pagg Pros provides turban tying services in the DMV for weddings, bhangra events, and any occasion calling for elegantly styled paggs.
 
@@ -64,8 +64,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div id='contact' className='mt-24'>
-          <h2 className={`${playfairbold.className} `}>Contact For a Quote</h2>
+        <div id='contact' className='mt-auto'>
+          <h2 className={`${playfairbold.className} mt-4 lg:mt-20`}>Contact For a Quote</h2>
           <div className={`${playfairreg.className} flex justify-center mt-4`}>
             <Contact />
           </div>
