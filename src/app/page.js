@@ -24,12 +24,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen max-w-full flex-col items-start justify-between p-24 bg-paggbrown text-white">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <div className="relative h-32 w-68 flex z-[1] bg-paggbrown justify-center">
+      <div className="relative lg:h-24 h-36 w-68 flex z-[1] bg-paggbrown">
         <Navbar />
       </div>
       <div
         className="grid text-center lg:max-w-5xl lg:w-full lg:items-center mx-auto"
-        // style={{ marginLeft: "auto", marginRight: "auto" }}
       >
         <div className="flex justify-center">
           <Slideshow />
@@ -71,7 +70,7 @@ export default function Home() {
           <h2 className={`${playfairbold.className} mt-20 lg:mt-32`}>
             About Us
           </h2>
-          <div className={`${playfairreg.className} flex justify-center`}>
+          <div className={`${playfairreg.className} flex justify-center lg:mb-0 mb-44`}>
             <p>
               Pagg Pros provides turban tying services in the DMV for weddings,
               bhangra events, and any occasion calling for elegantly styled
@@ -86,8 +85,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="contact" className="mt-6">
-          <h2 className={`${playfairbold.className} mt-72 lg:mt-20`}>
+        <div id="contact" className="mt-24">
+          <h2 className={`${playfairbold.className} mt-24 lg:mt-20`}>
             Contact For a Quote
           </h2>
           <div

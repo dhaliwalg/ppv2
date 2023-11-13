@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 114, 119, 220;
@@ -21,15 +26,8 @@ body {
   background: #492404;
 }
 
-* {
-  scroll-behavior: smooth;
-}
-
-.overflow-scroll::-webkit-scrollbar {
-  display: none;
-}
 
 .overflow-scroll {
   scrollbar-width: none;
-  /* Firefox */
+  -webkit-overflow-scrolling: touch;
 }

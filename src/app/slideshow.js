@@ -34,7 +34,9 @@ export default function Slideshow() {
 
     return (
         <Box className="max-w-sm border-2 rounded-lg">
-            <Image className="boxSize base:w-225px lg:w-325px rounded-lg" src={`/${images[index].src}`} alt={`/${images[index].title}`} />
+            <Image className="boxSize base:w-225px lg:w-325px rounded-lg"
+                src={`/${images[index].src}`}
+                alt={`/${images[index].title}`} />
         </Box>
     )
 }
