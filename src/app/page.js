@@ -43,10 +43,6 @@ export default function Home() {
           <span className={gurmukhi.className}> (ਪੱਗ)</span> or Dastaar{" "}
           <span className={gurmukhi.className}>(ਦਸਤਾਰ) </span>
           is a symbol of royalty and spirituality in Eastern Culture.
-          <br />
-          From ancient kings to modern weddings, it remains an integral part of
-          religious and celebratory attire.
-          <br />
           Tying a turban is an art form, requiring precision and skill.
           <br />
           <br />
