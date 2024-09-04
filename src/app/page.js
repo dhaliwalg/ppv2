@@ -34,43 +34,38 @@ export default function Home() {
           <Slideshow />
         </div>
         <div className={`${playfairbold.className}`}>
-          <h1 className="mt-2 text-lg lg:text-2xl italic">
+          <h1 className="mt-[5%] text-xl lg:text-5xl italic">
             Our Pros Know Paggs.
           </h1>
         </div>
 
-        <p className={`${playfairreg.className} lg:text-lg text-base`}>
+        <p className={`${playfairreg.className} mt-[5%] sm:text-lg lg:text-xl text-base`}>
           <br />
           The Turban, more traditionally known as a Pagg
           <span className={gurmukhi.className}> ਪੱਗ</span> or Dastaar{" "}
           <span className={gurmukhi.className}>ਦਸਤਾਰ </span>
-          has been a staple in Eastern Culture for years. <br />
+          is a staple in Eastern Culture.<br />
           Affiliated with royalty, they were primarily worn by kings and
           nobility as a sign of status. Paggs remain an integral part of
-          religion and special occasions, such as weddings and bhangra
-          performances. Each style has a story, a heritage. Pagg tying is a
+          religion and special occasions, such as weddings. Pagg tying is a
           precise artform, with techniques passed down through generations. It
-          takes skill to perfectly tie a pagg - trust <b>us</b>.
+          takes skill to perfectly tie a pagg - trust <strong>us</strong>.
         </p>
 
         <div
           id="lookbook"
-          className={`${playfairbold.className} mt-6 relative`}
+          className={`${playfairbold.className} relative`}
         >
-          <h2>
-            <br />
-            <br />{" "}
-          </h2>
           <div className="flex justify-center mt-8 lg:mt-12">
             <Lookbook p={4} />
           </div>
         </div>
 
         <div id="about" className="relative mt-4">
-          <h2 className={`${playfairbold.className} mt-20 lg:mt-32`}>
+          <h2 className={`${playfairbold.className} mt-10 mb-10 lg:mt-32 text-3xl`}>
             About Us
           </h2>
-          <div className={`${playfairreg.className} flex justify-center lg:mb-0 mb-44`}>
+          <div className={`${playfairreg.className} flex justify-center lg:mb-0 mb-44 text-xl`}>
             <p>
               Pagg Pros provides turban tying services in the DMV for weddings,
               bhangra events, and any occasion calling for elegantly styled
@@ -85,12 +80,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="contact" className="mt-24">
+        <div id="contact" className="mt-24 lg:text-xl">
           <h2 className={`${playfairbold.className} mt-24 lg:mt-20`}>
             Contact For a Quote
           </h2>
           <div
-            className={`${playfairreg.className} flex justify-center mt-2 lg:mt-2`}
+            className={`${playfairreg.className} flex justify-center mt-2 lg:mt-2 text-xl`}
           >
             <Contact />
           </div>

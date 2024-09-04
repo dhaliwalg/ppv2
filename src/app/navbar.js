@@ -75,7 +75,7 @@ export default function Navbar() {
                             <Box className={vollkorn.className}
                                 key={link.label}
                                 mb={4}>
-                                <Link className='hover:underline text-black'
+                                <Link className='hover:underline text-black text-lg'
                                     key={link.label} href={link.href}
                                     onClick={onClose}>
                                     {link.label}
@@ -98,7 +98,7 @@ export default function Navbar() {
             <Box className='text-stone-50'>
                 <Box as='nav'
                     flexDir="row"
-                    className="hidden md:block fixed z-10"
+                    className="hidden md:block fixed z-10 text-xl" 
                     top={3.5}
                     right={0}
                     p={2}>
