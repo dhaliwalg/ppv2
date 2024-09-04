@@ -22,68 +22,67 @@ const gurmukhi = Noto_Serif_Gurmukhi({
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen max-w-full flex-col items-start justify-between p-24 bg-paggbrown text-white">
+    <main className="flex min-h-screen flex-col items-start justify-between bg-paggbrown text-white mb-[10%]">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <div className="relative lg:h-24 h-36 w-68 flex z-[1] bg-paggbrown">
+      <div className="relative mb-[15%] lg:mb-[5%] lg:h-24 h-36 w-full flex z-[1] bg-paggbrown">
         <Navbar />
       </div>
-      <div
-        className="grid text-center lg:max-w-5xl lg:w-full lg:items-center mx-auto"
-      >
+      <div className="w-full px-4 md:px-8 lg:px-24 max-w-7xl mx-auto">
         <div className="flex justify-center">
           <Slideshow />
         </div>
         <div className={`${playfairbold.className}`}>
-          <h1 className="mt-[5%] text-xl lg:text-5xl italic">
+          <h1 className="mt-8 text-3xl lg:text-5xl italic text-center">
             Our Pros Know Paggs.
           </h1>
         </div>
-
-        <p className={`${playfairreg.className} mt-[5%] sm:text-lg lg:text-xl text-base`}>
+        <p
+          className={`${playfairreg.className} mt-8 text-lg lg:text-xl text-center`}
+        >
+          Known as Pagg
+          <span className={gurmukhi.className}> (ਪੱਗ)</span> or Dastaar{" "}
+          <span className={gurmukhi.className}>(ਦਸਤਾਰ) </span>
+          is a symbol of royalty and spirituality in Eastern Culture.
           <br />
-          The Turban, more traditionally known as a Pagg
-          <span className={gurmukhi.className}> ਪੱਗ</span> or Dastaar{" "}
-          <span className={gurmukhi.className}>ਦਸਤਾਰ </span>
-          is a staple in Eastern Culture.<br />
-          Affiliated with royalty, they were primarily worn by kings and
-          nobility as a sign of status. Paggs remain an integral part of
-          religion and special occasions, such as weddings. Pagg tying is a
-          precise artform, with techniques passed down through generations. It
-          takes skill to perfectly tie a pagg - trust <strong>us</strong>.
+          From ancient kings to modern weddings, it remains an integral part of
+          religious and celebratory attire.
+          <br />
+          Tying a turban is an art form, requiring precision and skill.
+          <br />
+          <br />
+          <strong>Trust Pagg Pros.</strong>
         </p>
 
-        <div
-          id="lookbook"
-          className={`${playfairbold.className} relative`}
-        >
+        <div id="lookbook" className={`${playfairbold.className} relative`}>
           <div className="flex justify-center mt-8 lg:mt-12">
             <Lookbook p={4} />
           </div>
         </div>
-
-        <div id="about" className="relative mt-4">
-          <h2 className={`${playfairbold.className} mt-10 mb-10 lg:mt-32 text-3xl`}>
+        <div id="about" className="relative mt-4 text-center">
+          <h2
+            className={`${playfairbold.className} mt-10 mb-10 text-2xl lg:mt-32 lg:text-3xl`}
+          >
             About Us
           </h2>
-          <div className={`${playfairreg.className} flex justify-center lg:mb-0 mb-44 text-xl`}>
+          <div
+            className={`${playfairreg.className} lg:mb-0 mb-44 text-lg lg:text-xl mx-auto max-w-3xl`}
+          >
+            <p className="mb-4">
+              Pagg Pros provides turban tying services in the DMV. We can
+              deliver professionally tied turbans in various styles, including:
+            </p>
+            <ul className="list-disc list-inside text-left mb-4">
+              <li>Sikh Paggs</li>
+              <li>Wedding Saafas</li>
+              <li>Turla Paggs</li>
+            </ul>
             <p>
-              Pagg Pros provides turban tying services in the DMV for weddings,
-              bhangra events, and any occasion calling for elegantly styled
-              paggs. We can deliver flawlessly tied Sikh paggs, wedding saafas,
-              turla paggs, and any other style you desire. Our extensive
-              experience means we can expertly tie turbans for grooms, entire
-              wedding parties, or even corporate events. Our stylists transform
-              turbans into a statement of personal style and honor for each
-              client&apos;s special day. We handle every detail so you can focus
-              on moments that matter most.{" "}
+              We handle the details, so you can focus on the moments that matter
+              most.
             </p>
           </div>
         </div>
-
-        <div id="contact" className="mt-24 lg:text-xl">
-          <h2 className={`${playfairbold.className} mt-24 lg:mt-20`}>
-            Contact For a Quote
-          </h2>
+        <div id="contact" className="mt-[10%] lg:text-xl text-center">
           <div
             className={`${playfairreg.className} flex justify-center mt-2 lg:mt-2 text-xl`}
           >
