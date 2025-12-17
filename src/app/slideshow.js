@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 
 const images = [
   {
-    src: "./img1.jpg",
+    src: "./img4.jpg",
     title: "Image 1",
   },
   {
-    src: "./img2.jpg",
+    src: "./img3.jpg",
     title: "Image 2",
   },
 ];
