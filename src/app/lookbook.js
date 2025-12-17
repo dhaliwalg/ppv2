@@ -33,18 +33,7 @@ export default function Lookbook() {
           }}
         >
           <Stack ml="4" spacing={8} direction={["column", "row"]}>
-            {/* <Image
-              className="rounded-md"
-              boxSize="205px"
-              src="/img1.jpg"
-              alt="sikh pagg"
-            />
-            <Image
-              className="rounded-md"
-              boxSize="205px"
-              src="/img2.jpg"
-              alt="wedding saafa"
-            /> */}
+            
             <Image
               className="rounded-md"
               boxSize="205px"
@@ -69,18 +58,7 @@ export default function Lookbook() {
               src="/img5.jpg"
               alt="bhangra pagg"
             />
-            {/* <Image
-              className="rounded-md"
-              boxSize="205px"
-              src="/img10.jpg"
-              alt="saafa2"
-            /> */}
-            {/* <Image
-              className="rounded-md"
-              boxSize="205px"
-              src="/img8.jpg"
-              alt="greensikh"
-            /> */}
+           
             <Image
               className="rounded-md"
               boxSize="205px"
@@ -93,12 +71,7 @@ export default function Lookbook() {
               src="/img7.jpg"
               alt="tying2"
             />
-            {/* <Image
-              className="rounded-md"
-              boxSize="205px"
-              src="/img11.jpg"
-              alt="saafa"
-            /> */}
+            
           </Stack>
         </Box>
       </SlideFade>
